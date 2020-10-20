@@ -29,5 +29,9 @@ if (eta < 18) {
   prezzoeffettivo = costo * km;
 }
 
+// devo limitare i decimali a 2 cifre dopo la virgola:
 
-document.getElementById("biglietto").innerHTML ="il prezzo del biglietto è: " + prezzoeffettivo;
+var prezzorounded = prezzoeffettivo.toFixed(2);
+
+// OUTPUT FINALE DA MOSTRARE NEL BROWSER
+document.getElementById("biglietto").innerHTML = "Il prezzo del biglietto è: " + prezzorounded;
