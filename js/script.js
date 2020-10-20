@@ -34,4 +34,4 @@ if (eta < 18) {
 var prezzorounded = prezzoeffettivo.toFixed(2);
 
 // OUTPUT FINALE DA MOSTRARE NEL BROWSER
-document.getElementById("biglietto").innerHTML = "Il prezzo del biglietto è: " + prezzorounded;
+document.getElementById("biglietto").innerHTML = "Il costo monetario di questa lussuosa esperienza è di " + prezzorounded + " Euro, non pagabili a rate.";
