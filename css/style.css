@@ -32,6 +32,11 @@ body, html {
   border-radius: 5px;
 }
 
+a {
+  text-decoration: none;
+  color: green;
+}
+
 #title {
   margin-bottom: 50px;
   font-weight: bolder;
